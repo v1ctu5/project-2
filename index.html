@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMart - Bring The Store To Your Door</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="MyMart Logo">
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="whatsapp-btn">
+                <a href="https://wa.me/9999999999" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bring The Store To Your Door</h1>
+            <p>Fresh groceries, food, and essentials delivered to your doorstep</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/9999999999" class="primary-btn">
+                    <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                </a>
+                <a href="tel:+9999999999" class="secondary-btn">
+                    <i class="fas fa-phone"></i> Call Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <h2 class="section-title">Our Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="./images/vegetables.jpg" 
+                     alt="Vegetables" 
+                     onerror="handleImageError(this)"
+                     class="category-image">
+                <h3>Vegetables</h3>
+                <p>Fresh farm vegetables daily</p>
+            </div>
+            <div class="category-card">
+                <img src="images/fruits.jpg" alt="Fruits" onerror="this.src='images/placeholder.jpg'">
+                <h3>Fruits</h3>
+                <p>Fresh & organic fruits</p>
+            </div>
+            <div class="category-card">
+                <img src="images/meat.jpg" alt="Meat & Fish" onerror="this.src='images/placeholder.jpg'">
+                <h3>Meat & Fish</h3>
+                <p>Fresh meat and seafood</p>
+            </div>
+            <div class="category-card">
+                <img src="images/groceries.jpg" alt="Groceries" onerror="this.src='images/placeholder.jpg'">
+                <h3>Groceries</h3>
+                <p>Daily essentials & staples</p>
+            </div>
+            <div class="category-card">
+                <img src="images/bakery.jpg" alt="Bakery" onerror="this.src='images/placeholder.jpg'">
+                <h3>Bakery</h3>
+                <p>Fresh baked goods</p>
+            </div>
+            <div class="category-card">
+                <img src="images/medicine.jpg" alt="Medicines" onerror="this.src='images/placeholder.jpg'">
+                <h3>Medicines</h3>
+                <p>Healthcare & medicines</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>Flexible Delivery</h3>
+                <p>Delivery available beyond 5km with additional fee</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-clock"></i>
+                <h3>6 AM - 8 PM</h3>
+                <p>Service available all day</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-money-bill-wave"></i>
+                <h3>Pay After Delivery</h3>
+                <p>Check products before payment</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Restaurant Delivery</h3>
+                <p>Food from your favorite restaurants</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About MyMart</h2>
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Neighborhood Store, Now Online</h3>
+                    <p>Welcome to MyMart - your trusted local grocery delivery service in Manjeri. We bring fresh vegetables, fruits, groceries, and daily essentials right to your doorstep.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Quick Delivery</h4>
+                                <p>Fast delivery within 5km radius</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h4>Fresh Products</h4>
+                                <p>Quality products from trusted suppliers</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <div>
+                                <h4>Quality Assured</h4>
+                                <p>Handpicked quality products</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/9999999999" class="primary-btn">
+                            <i class="fab fa-whatsapp"></i> Order Now
+                        </a>
+                        <a href="https://instagram.com/mymartindia" class="secondary-btn">
+                            <i class="fab fa-instagram"></i> Follow Us
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/about-img.jpg" alt="MyMart Store">
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>5km+</h4>
+                            <p>Delivery Range</p>
+                        </div>
+                        <div class="stat">
+                            <h4>₹20+</h4>
+                            <p>Delivery Fee</p>
+                        </div>
+                        <div class="stat">
+                            <h4>14hrs</h4>
+                            <p>Daily Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <!-- Developer Credit -->
+        <!-- Developed by @the.webboy on Instagram -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="./images/logo.png" alt="MyMart Logo">
+                    <p>Bringing convenience to your doorstep</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/mymartindia" target="_blank" title="Follow MyMart">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/9999999999" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="tel:+9999999999">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#vegetables">Vegetables</a></li>
+                    <li><a href="#fruits">Fruits</a></li>
+                    <li><a href="#meat">Meat & Fish</a></li>
+                    <li><a href="#groceries">Groceries</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        MyMart, Pandikkad Road, Manjeri, Kerala
+                    </li>
+                    <li>
+                        <i class="fas fa-truck"></i>
+                        Delivery fee varies by distance
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        6:00 AM - 8:00 PM
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 MyMart. Developed with ❤️ by <a href="https://instagram.com/the.webboy" target="_blank">@the.webboy</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html> 
